@@ -24,10 +24,10 @@ def getSumOdds(inputlist):
     sum = 0
 
     for i in range(0, len(inputlist)):
-        if i%2 == 0:
+        if i % 2 == 0:
             pass
 
-        if i%2 != 0:
+        if i % 2 != 0:
             sum = sum + inputlist[i]
         
     return sum
